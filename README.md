@@ -37,7 +37,7 @@ Built with **React**, **Tailwind CSS**, and **Lucide Icons**, the template inclu
 
 ### 1️⃣ Clone this repository:
 ```bash
-git clone https://github.com/your-username/obsidian-portfolio.git
+git clone https://github.com/amirahyusof/obsidian-portfolio.git
 ```
 
 ### 2️⃣ Install dependencies:
@@ -66,7 +66,7 @@ npm run build
 ## 🖤 Credits
 
 Created by Amirah Yusof.
-Originally based on her personal portfolio: amirahyusof.github.io
+Originally based on my personal portfolio: amirahyusof.github.io
 
 This version is a dummy portfolio open for anyone to use as a starting point for their own developer showcase
 
