@@ -1,3 +1,5 @@
+![Obsidian Portfolio Preview](./preview.png)
+
 # Obsidian Portfolio – Full-Stack Developer Template
 
 A sleek, obsidian-themed portfolio template designed for developers who want a minimal yet impactful online presence.  
