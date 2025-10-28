@@ -4,7 +4,7 @@ import { ArrowRight, Download } from 'lucide-react';
 
 export default function About({ navigateTo }) {
   return (
-    <div className="min-h-screen flex items-center pt-20 justify-center bg-obsidian text-[#f3f4f6]">
+    <div className="min-h-screen flex items-center px-6 pt-20 justify-center bg-obsidian text-[#f3f4f6]">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-linear-to-r from-[#7dd3fc] via-[#c084fc] to-[#f472b6] bg-clip-text text-transparent">
           About Me
@@ -35,24 +35,24 @@ export default function About({ navigateTo }) {
           </p>
 
           <div className="flex gap-4 text-center">
-            <button className="px-6 py-3 rounded-full border border-[#7dd3fc]/20 transition-all duration-300 flex items-center gap-2 hover:scale-105">
+            <button className="px-6 py-3 rounded-full border border-[#7dd3fc]/20 text-gray-800 bg-linear-to-r from-[#7dd3fc] via-[#c084fc] to-[#f472b6] transition-all duration-300 flex items-center gap-2 hover:scale-105">
               <Download className="w-4 h-4" />
               <a
                 href="#" // Replace '#' with the actual resume link
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="text-md text-[#7dd3fc] hover:text-[#c084fc]">Download Resume</span>
+                <span className="text-md text-gray-800 ">Download Resume</span>
               </a>
             </button>
             <button
               onClick={() => navigateTo('projects')}
-              className="flex items-center gap-2 group"
+              className="flex items-center gap-2 group text-[#7dd3fc] hover:text-[#c084fc]"
             >
-              <span className="text-md text-[#7dd3fc] hover:text-[#c084fc] group-hover:brightness-125 transition-colors">
+              <span className="text-md group-hover:brightness-125 transition-colors">
                 Explore My Projects
               </span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform text-[#7dd3fc]" />
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
         </div>

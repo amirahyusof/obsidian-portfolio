@@ -42,7 +42,7 @@ export default function Home({ navigateTo }) {
         <div className="flex gap-4 justify-center flex-wrap">
           <button
             onClick={() => navigateTo('projects')}
-            className="group relative px-8 py-4 text-[#7dd3fc] rounded-full font-semibold overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg"
+            className="group relative px-8 py-4 rounded-full bg-linear-to-r from-[#7dd3fc] via-[#c084fc] to-[#f472b6] text-gray-800 font-semibold overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg"
           >
             <span className="relative z-10 flex items-center gap-2 ">
               View My Work
@@ -52,9 +52,12 @@ export default function Home({ navigateTo }) {
 
           <button
             onClick={() => navigateTo('contact')}
-            className="px-8 py-4 border-2 border-[#7dd3fc]/50 rounded-full font-semibold hover:bg-[#7dd3fc]/10 transition-all duration-300"
+            className="px-8 py-4 border-2 border-[#7dd3fc]/50 rounded-full font-semibold hover:bg-[#7dd3fc]/10 transition-all duration-300 hover:scale-105 hover:shadow-lg"
           >
-            Get In Touch
+            <span className='text-[#7dd3fc]'>
+              Get In Touch
+            </span>
+            
           </button>
         </div>
       </div>
