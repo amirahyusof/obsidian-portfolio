@@ -55,7 +55,8 @@ export default function Portfolio() {
               onClick={() => navigateTo('home')}
               className="bg-linear-to-r from-[#7dd3fc] to-[#c084fc] bg-clip-text text-transparent hover:scale-105 transition-transform"
             >
-              <span className="text-2xl font-bold text-[#7dd3fc]">J.<span className='text-[#c084fc]'>N</span></span>
+              <span className="text-2xl font-bold text-[#7dd3fc]">Y.<span className='text-[#c084fc]'>N</span></span>
+              {/* can put your logo or your initial name */}
             </button>
 
             {/* Desktop Navigation */}
