@@ -17,7 +17,7 @@ export default function Home({ navigateTo }) {
 
         {/* Name */}
         <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight">
-          <span className="bg-linear-to-r from-[#7dd3fc] via-fuchsia-400 to-[#c084fc] bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-[#7dd3fc] via-[#c084fc] to-[#f472b6] bg-clip-text text-transparent">
             Your Name
           </span>
         </h1>

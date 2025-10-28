@@ -6,10 +6,10 @@ export default function Contact() {
   return (
     <section id="contact" className="relative min-h-screen flex items-center justify-center px-6 py-24 bg-linear-to-b from-[#0b0b0e] via-[#111118] to-[#0b0b0e] text-gray-300">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-linear-to-r from-[#7dd3fc] via-fuchsia-400 to-[#c084fc] bg-clip-text text-transparent">
+        <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-linear-to-r from-[#7dd3fc] via-[#c084fc] to-[#f472b6] bg-clip-text text-transparent">
           Let’s Build What Matters
         </h2>
-        <div className="h-0.5 w-32 bg-linear-to-r from-[#7dd3fc] via-fuchsia-500 to-[#c084fc] mb-12 mx-auto rounded-full"></div>
+        <div className="h-0.5 w-32 bg-linear-to-r from-[#7dd3fc] via-[#c084fc]/50 to-[#f472b6] mb-12 mx-auto rounded-full"></div>
 
         <p className="text-lg md:text-xl text-gray-400 mb-16 max-w-2xl mx-auto leading-relaxed">
           Whether it’s crafting a full-stack solution, elevating a brand, or experimenting with ideas —

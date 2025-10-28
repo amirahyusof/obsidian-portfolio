@@ -6,7 +6,7 @@ export default function About({ navigateTo }) {
   return (
     <div className="min-h-screen flex items-center pt-20 justify-center bg-obsidian text-[#f3f4f6]">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-linear-to-r from-[#7dd3fc] via-fuchsia-400 to-[#c084fc] bg-clip-text text-transparent">
+        <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-linear-to-r from-[#7dd3fc] via-[#c084fc] to-[#f472b6] bg-clip-text text-transparent">
           About Me
         </h2>
         <div className="h-1 w-20 bg-accent mb-12"></div>

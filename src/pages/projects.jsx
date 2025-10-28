@@ -8,7 +8,7 @@ export default function Projects() {
     <div className="min-h-screen px-6 py-32">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
-        <h2 className="text-5xl md:text-6xl font-bold bg-linear-to-r from-[#7dd3fc] via-fuchsia-400 to-[#c084fc] mb-6 text-center text-transparent bg-clip-text">
+        <h2 className="text-5xl md:text-6xl font-bold bg-linear-to-r from-[#7dd3fc] via-[#c084fc] to-[#f472b6] mb-6 text-center text-transparent bg-clip-text">
           Featured Projects
         </h2>
         <div className="h-1 w-20 bg-[#7dd3fc] mb-4 mx-auto"></div>

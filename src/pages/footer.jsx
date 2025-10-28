@@ -13,7 +13,7 @@ function Footer() {
           Designed in Obsidian Gradient
         </div>
       </div>
-      <div className="absolute inset-x-0 bottom-0 h-0.5 bg-linear-to-r from-[#7dd3fc] via-fuchsia-400/30 to-[#c084fc] blur-sm"></div>
+      <div className="absolute inset-x-0 bottom-0 h-0.5 bg-linear-to-r from-[#7dd3fc] via-[#c084fc]/30 to-[#f472b6] blur-sm"></div>
     </footer>
   )
 }
