@@ -1,18 +1,74 @@
-# React + Vite
+# Obsidian Portfolio – Full-Stack Developer Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, obsidian-themed portfolio template designed for developers who want a minimal yet impactful online presence.  
+This project serves as a **dummy portfolio** — perfect for showcasing, customizing, or forking as your own personal site.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 About This Project
 
-## React Compiler
+This portfolio is crafted for a **Full-Stack Developer persona**, blending elegance with function.  
+The Obsidian theme combines deep black gradients with neon glows to highlight technical mastery and creativity.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Built with **React**, **Tailwind CSS**, and **Lucide Icons**, the template includes animated backgrounds, responsive navigation, and modular sections that can easily be personalized.
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🌌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Animated Obsidian Gradient Background  
+- 🧭 Smooth Navigation with Page Transitions  
+- 💼 Modular Sections (Home, About, Projects, Stack, Contact)  
+- 🧑‍💻 Responsive & Mobile-Friendly Design  
+- 🎨 Built using TailwindCSS for quick customization  
+- 🔮 Themed for both aesthetic & performance harmony  
+
+---
+
+## 🧩 Tech Stack
+
+- React  
+- Tailwind CSS  
+- Lucide React Icons  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone this repository:
+```bash
+git clone https://github.com/your-username/obsidian-portfolio.git
+```
+
+### 2️⃣ Install dependencies:
+```bash
+npm install
+```
+
+### 3️⃣ Run locally:
+```bash
+npm run dev
+```
+
+### 4️⃣ Build for production:
+```bash
+npm run build
+```
+---
+
+## 🪄 Customization
+
+- Replace Home, About, Projects, and Contact content under /pages.
+- Edit theme colors in directly in the component classes.
+- Update your personal branding and links in Footer and Contact sections.
+
+---
+## 🖤 Credits
+
+Created by Amirah Yusof.
+Originally based on her personal portfolio: amirahyusof.github.io
+
+This version is a dummy portfolio open for anyone to use as a starting point for their own developer showcase
+
+
+
