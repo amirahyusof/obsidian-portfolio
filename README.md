@@ -68,7 +68,7 @@ npm run build
 ## 🖤 Credits
 
 Created by Amirah Yusof.
-Originally based on my personal portfolio: amirahyusof.github.io
+Originally based on my personal portfolio: [amirahyusof.github.io](https://amirahyusof.github.io/)
 
 This version is a dummy portfolio open for anyone to use as a starting point for their own developer showcase
 
